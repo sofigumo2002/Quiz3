@@ -208,7 +208,7 @@ public class DoublyLinkedList implements List {
         String result = "Doubly Linked List Content\n";
         Node aux = first;
         while(aux!=null){
-           result+=aux.data+" ";
+           result+=aux.data+ " ";
            aux = aux.next;
         }
         return result;

@@ -18,6 +18,10 @@ public class Node {
         this.data = data;
         this.prev = this.next = null;
     }
+
+    public Node() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
     public Object getData() {
         return data;
     }
